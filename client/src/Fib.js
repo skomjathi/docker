@@ -56,6 +56,8 @@ class Fib extends Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
+	<h2>find FIBONACCI numbers</h2>
+	<h2>Peti egy kis buzi</h2>
           <label>Enter your index:</label>
           <input
             value={this.state.index}
